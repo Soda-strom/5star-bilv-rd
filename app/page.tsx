@@ -88,10 +88,6 @@ export default function Home() {
               <p style={{ fontWeight: 300, fontSize: 'clamp(0.95rem, 1.8vw, 1.05rem)', lineHeight: 1.75, color: 'rgba(255,255,255,0.52)', maxWidth: 440, marginBottom: '2.75rem' }}>
                 Från snabb utvändig tvätt till komplett lackskydd med keramisk coating — vi ger din bil den behandling den förtjänar.
               </p>
-              <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
-                <a className="btn-primary-light" href="/boka">Boka Tid</a>
-                <a className="btn-outline-light" href="#tjanster">Våra Tjänster</a>
-              </div>
             </div>
           </div>
         </div>
