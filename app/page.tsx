@@ -93,7 +93,7 @@ export default function Home() {
         </div>
 
         {/* Stats bar */}
-        <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, zIndex: 2, borderTop: '1px solid rgba(255,255,255,0.08)', background: 'rgba(0,0,0,0.48)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
+        <div className="stats-bar" style={{ position: 'absolute', bottom: 0, left: 0, right: 0, zIndex: 2, borderTop: '1px solid rgba(255,255,255,0.08)', background: 'rgba(0,0,0,0.48)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
           <div style={{ maxWidth: 1200, margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(4,1fr)' }} className="stats-grid">
             {stats.map((s, i) => (
               <div key={i} style={{ padding: '1.6rem 1rem', textAlign: 'center', borderRight: i < 3 ? '1px solid rgba(255,255,255,0.07)' : 'none' }}>
@@ -158,6 +158,9 @@ export default function Home() {
       </section>
 
       <style>{`
+        @media (max-width: 768px) {
+          .stats-bar           { display: none !important; }
+        }
         @media (max-width: 640px) {
           .stats-grid          { grid-template-columns: repeat(2,1fr) !important; }
           .featured-grid       { grid-template-columns: 1fr !important; }
