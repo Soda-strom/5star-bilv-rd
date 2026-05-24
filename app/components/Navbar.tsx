@@ -46,7 +46,7 @@ export default function Navbar() {
         maxWidth: 1200, margin: '0 auto',
         padding: '0 2rem',
         display: 'flex', alignItems: 'center', justifyContent: 'space-between',
-        height: 160,
+        height: 140,
       }}>
         {/* Logo */}
         <Link href="/" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', flexShrink: 0 }}>
@@ -55,13 +55,13 @@ export default function Navbar() {
             alt="5Star Bilvård"
             width={440}
             height={220}
-            style={{ objectFit: 'contain', height: 146, width: 'auto', marginTop: '0.75rem' }}
+            style={{ objectFit: 'contain', height: 146, width: 'auto', marginTop: '0.25rem' }}
             priority
           />
         </Link>
 
         {/* Nav links — alltid synliga */}
-        <nav style={{ display: 'flex', alignItems: 'center', gap: '2.5rem' }}>
+        <nav style={{ display: 'flex', alignItems: 'center', gap: '3.5rem' }}>
           {links.map(l => (
             <Link
               key={l.href}

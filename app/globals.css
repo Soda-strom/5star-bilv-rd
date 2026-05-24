@@ -179,9 +179,9 @@ body {
 /* ── Nav link ── */
 .nav-link {
   font-family: var(--font-body), 'Jost', sans-serif;
-  font-size: 0.8rem;
+  font-size: 0.95rem;
   font-weight: 400;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.05em;
   color: var(--text-muted);
   text-decoration: none;
   transition: color 180ms ease;
