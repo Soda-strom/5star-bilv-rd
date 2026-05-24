@@ -117,7 +117,7 @@ export default function Home() {
 
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1.5rem' }} className="services-image-grid">
             {services.map((s, i) => (
-              <div key={s.id} className={`service-card reveal reveal-delay-${i + 1}`}>
+              <a key={s.id} href="/boka" className={`service-card reveal reveal-delay-${i + 1}`} style={{ textDecoration: 'none', display: 'block', cursor: 'pointer' }}>
                 <div style={{ position: 'relative', height: 200, overflow: 'hidden' }}>
                   <Image src={s.img} alt={s.title} fill style={{ objectFit: 'cover', transition: 'transform 0.55s var(--ease-out)' }} sizes="(max-width: 768px) 100vw, 33vw" />
                   <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(0deg, rgba(0,0,0,0.25) 0%, transparent 60%)' }} />
@@ -126,7 +126,7 @@ export default function Home() {
                   <h3 style={{ fontWeight: 500, fontSize: '0.95rem', letterSpacing: '0.03em', color: 'var(--text)', marginBottom: '0.5rem' }}>{s.title}</h3>
                   <p style={{ fontWeight: 300, fontSize: '0.85rem', lineHeight: 1.7, color: 'var(--text-muted)' }}>{s.desc}</p>
                 </div>
-              </div>
+              </a>
             ))}
           </div>
         </div>
