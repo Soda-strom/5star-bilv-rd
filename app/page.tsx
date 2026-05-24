@@ -112,7 +112,7 @@ export default function Home() {
           <h2 className="font-display reveal reveal-delay-1" style={{ fontSize: 'clamp(2rem, 4vw, 3.25rem)', fontWeight: 400, lineHeight: 1.1, color: 'var(--text)', marginBottom: '3.5rem' }}>
             Allt din bil
             <br />
-            <em style={{ fontStyle: 'italic', color: 'var(--text-muted)' }}>behöver — under ett tak</em>
+            <em style={{ fontStyle: 'italic', color: 'var(--text-muted)' }}>behöver - under ett tak</em>
           </h2>
 
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1.5rem' }} className="services-image-grid">
