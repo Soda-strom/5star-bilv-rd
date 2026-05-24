@@ -49,7 +49,7 @@ export default function OmOssPage() {
               <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.25rem', marginTop: '1rem' }}>
                 {[
                   { label: 'Certifierade produkter',  desc: 'Vi använder enbart produkter av högsta kvalitet från ledande varumärken.' },
-                  { label: 'Nöjd-kund-garanti',       desc: 'Är du inte nöjd åtgärdar vi det — alltid utan extra kostnad.' },
+                  { label: 'Fri offert',               desc: 'Kontakta oss för en kostnadsfri bedömning — utan förpliktelser.' },
                   { label: 'Snabb leverans',           desc: 'De flesta jobb är klara samma dag — vi respekterar din tid.' },
                   { label: 'Erfaret team',             desc: 'Över 5 års samlad erfarenhet av professionell bilrekond.' },
                 ].map(v => (
