@@ -26,13 +26,11 @@ export default function OmOssPage() {
       <section ref={aboutRef} style={{ padding: '9rem 2rem 7rem' }}>
         <div style={{ maxWidth: 1200, margin: '0 auto' }}>
           <p className="section-label reveal" style={{ marginBottom: '0.9rem' }}>Om oss</p>
-          <h1 className="font-display reveal reveal-delay-1" style={{ fontSize: 'clamp(2rem, 4vw, 3.25rem)', fontWeight: 400, lineHeight: 1.1, color: 'var(--text)', marginBottom: '2.5rem' }}>
+          <h1 className="font-display reveal reveal-delay-1" style={{ fontSize: 'clamp(2rem, 4vw, 3.25rem)', fontWeight: 400, lineHeight: 1.1, color: 'var(--text)', marginBottom: '3.5rem' }}>
             Passion för bilar
             <br />
             <em style={{ fontStyle: 'italic', color: 'var(--text-muted)' }}>sedan dag ett</em>
           </h1>
-
-          <div className="reveal reveal-delay-2" style={{ width: 64, height: 1, background: 'var(--gold)', marginBottom: '3.5rem', opacity: 0.7 }} />
 
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '5rem', alignItems: 'center' }} className="about-grid">
             {/* Text */}
