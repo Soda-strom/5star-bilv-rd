@@ -53,8 +53,8 @@ export default function Navbar() {
           <Image
             src="/logo.png"
             alt="5Star Bilvård"
-            width={110}
-            height={55}
+            width={440}
+            height={220}
             style={{ objectFit: 'contain', height: 146, width: 'auto', marginTop: '2.5rem' }}
             priority
           />
