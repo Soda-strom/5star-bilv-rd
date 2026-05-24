@@ -7,7 +7,7 @@ const stats = [
   { value: '5+',     label: 'Års erfarenhet'    },
   { value: '2 000+', label: 'Bilar rekondade'   },
   { value: '1 500+', label: 'Nöjda kunder'      },
-  { value: '100%',   label: 'Nöjd-kund-garanti' },
+  { value: 'Fri',    label: 'Offert & rådgivning' },
 ]
 
 const services = [
