@@ -55,7 +55,7 @@ export default function Navbar() {
             alt="5Star Bilvård"
             width={110}
             height={55}
-            style={{ objectFit: 'contain', height: 146, width: 'auto', marginTop: '1.25rem' }}
+            style={{ objectFit: 'contain', height: 146, width: 'auto', marginTop: '2.5rem' }}
             priority
           />
         </Link>
