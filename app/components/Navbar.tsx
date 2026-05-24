@@ -46,7 +46,7 @@ export default function Navbar() {
         maxWidth: 1200, margin: '0 auto',
         padding: '0 2rem',
         display: 'flex', alignItems: 'center', justifyContent: 'space-between',
-        height: 140,
+        height: 118,
       }}>
         {/* Logo */}
         <Link href="/" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', flexShrink: 0 }}>
@@ -61,7 +61,7 @@ export default function Navbar() {
         </Link>
 
         {/* Nav links — alltid synliga */}
-        <nav style={{ display: 'flex', alignItems: 'center', gap: '3.5rem' }}>
+        <nav style={{ display: 'flex', alignItems: 'center', gap: '4.5rem' }}>
           {links.map(l => (
             <Link
               key={l.href}
