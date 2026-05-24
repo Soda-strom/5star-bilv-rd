@@ -110,9 +110,9 @@ export default function Home() {
         <div style={{ maxWidth: 1200, margin: '0 auto' }}>
           <p className="section-label reveal" style={{ marginBottom: '0.9rem' }}>Våra Tjänster</p>
           <h2 className="font-display reveal reveal-delay-1" style={{ fontSize: 'clamp(2rem, 4vw, 3.25rem)', fontWeight: 400, lineHeight: 1.1, color: 'var(--text)', marginBottom: '3.5rem' }}>
-            Allt din bil
+            Allt din bil behöver
             <br />
-            <em style={{ fontStyle: 'italic', color: 'var(--text-muted)' }}>behöver - under ett tak</em>
+            <em style={{ fontStyle: 'italic', color: 'var(--text-muted)' }}>- under ett tak</em>
           </h2>
 
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1.5rem' }} className="services-image-grid">
