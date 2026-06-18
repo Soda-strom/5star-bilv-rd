@@ -70,7 +70,7 @@ export default function Home() {
         }} />
 
         <div style={{ position: 'relative', zIndex: 2, width: '100%' }}>
-          <div style={{ maxWidth: 1200, margin: '0 auto', padding: '0 2rem', paddingTop: '148px' }}>
+          <div style={{ maxWidth: 1200, margin: '0 auto', padding: '0 2rem', paddingTop: '148px', paddingBottom: '140px' }}>
             <div ref={heroRef} style={{ maxWidth: 680 }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '2rem' }}>
                 <span style={{ width: 2, height: 22, background: 'var(--gold)', display: 'inline-block', flexShrink: 0 }} />
