@@ -106,17 +106,20 @@ export default function Footer() {
           <p suppressHydrationWarning className="font-light text-[0.74rem] tracking-[0.04em]" style={{ color: 'rgba(255,255,255,0.22)' }}>
             © {new Date().getFullYear()} 5Star Bilvård. Alla rättigheter förbehållna.
           </p>
-          <a
-            href="https://www.bookd.se/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="font-light text-[0.74rem] tracking-[0.04em] no-underline transition-colors duration-200"
-            style={{ color: 'rgba(255,255,255,0.22)', fontFamily: "var(--font-body), 'Jost', sans-serif" }}
-            onMouseEnter={e => (e.currentTarget.style.color = 'rgba(255,255,255,0.52)')}
-            onMouseLeave={e => (e.currentTarget.style.color = 'rgba(255,255,255,0.22)')}
-          >
-            Made by Bookd
-          </a>
+          <span className="flex items-center gap-2 font-light text-[0.74rem] tracking-[0.04em]" style={{ color: 'rgba(255,255,255,0.22)', fontFamily: "var(--font-body), 'Jost', sans-serif" }}>
+            made by bookd
+            <a
+              href="https://www.bookd.se/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="no-underline transition-colors duration-200"
+              style={{ color: 'rgba(255,255,255,0.22)' }}
+              onMouseEnter={e => (e.currentTarget.style.color = 'rgba(255,255,255,0.52)')}
+              onMouseLeave={e => (e.currentTarget.style.color = 'rgba(255,255,255,0.22)')}
+            >
+              https://www.bookd.se/
+            </a>
+          </span>
         </div>
       </footer>
 
