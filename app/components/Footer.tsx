@@ -107,7 +107,7 @@ export default function Footer() {
             © {new Date().getFullYear()} 5Star Bilvård. Alla rättigheter förbehållna.
           </p>
           <span className="flex items-center gap-2 font-light text-[0.74rem] tracking-[0.04em]" style={{ color: 'rgba(255,255,255,0.22)', fontFamily: "var(--font-body), 'Jost', sans-serif" }}>
-            made by bookd
+            Made by bookd
             <a
               href="https://www.bookd.se/"
               target="_blank"
